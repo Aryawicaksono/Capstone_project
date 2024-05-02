@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+}
+.head {
+  background: linear-gradient(
+    300deg,
+    rgb(4, 188, 220),
+    rgb(141, 220, 243),
+    rgb(224, 252, 251)
+  );
+  padding: 2rem;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(38, 10, 162);
+  margin-bottom: 5rem;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Noto serif", serif;
+  margin-block: 0;
+}
+.head > p {
+  font-size: 20px;
+  font-family: serif;
+  margin-bottom: 10rem;
+}
+#coconut {
+  margin-left: 50px;
+  height: 500px;
+  margin-bottom: 200px;
+}
+.profile {
+  border: 2px solid black;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  margin-bottom: 5em;
+}
+.profile > img {
+  height: 200px;
+  border-radius: 50%;
+}
+.profile > h2 {
+  font-size: 30px;
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
+  margin-block: 0.5em 0.1em;
+}
+.profile > p {
+  font-size: small;
+  text-align: center;
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.details > h1,
+.contacts > h1 {
+  margin-bottom: 5rem;
+  color: rgb(38, 10, 162);
+  font-size: 40px;
+}
+.skill {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20%;
+}
+.skill > img {
+  grid-column: 1;
+  margin-bottom: 10rem;
+  width: 300px;
+  border-radius: 25%;
+}
+.skill > div {
+  grid-column: 2;
+  color: rgb(48, 13, 206);
+}
+.desc {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.desc > h2 {
+  margin-block: 0;
+  font-size: 25px;
+  font-family: "Noto Serif", serif;
+}
+#touch {
+  margin-bottom: 1rem;
+}
+.contacts {
+  padding: 2rem;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(38, 10, 162);
+  margin-bottom: 5rem;
+}
+.contacts > p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Noto Serrat", serif;
+}
+.contacts > a {
+    margin-top: 10px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: xx-large;
+  background: linear-gradient(to top,blue,rgb(117, 180, 244));
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+}
+.contacts>a:hover{
+  background:linear-gradient(to top,blue,darkblue);
+  color: yellow;
+}
+.footer{
+    background: linear-gradient(
+    300deg,
+    rgb(4, 188, 220),
+    rgb(141, 220, 243),
+    rgb(224, 252, 251)
+  );
+  padding: 2rem;
+  margin: 0%;
+  color: rgb(38, 10, 162);
+}
+@media (max-width: 900px) {
+  .skill {
+    display: block;
+  }
+  .skill > img {
+    margin-bottom: 20px;
+  }
+  .skill > div {
+    margin-bottom: 100px;
+  }
+}
